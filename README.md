@@ -1,7 +1,17 @@
 # README
 Código del curso de Diseño de Bases de Datos - Universidad Nacional de Ingeniería.
 
-### Para usar PostgreSQL
+### Para usar PostgreSQL (Localmente - Portable)
+
+1. Descargue el paquete postgres desde la ruta de descarga del curso.
+2. **Descomprima** el archivo zip.
+2. Ejecute el script `init.bat` (por única vez).
+3. Ejecute el script `start.bat` (cada vez que desee iniciar la BD). El script iniciará Postgres en el puerto `5434`.
+4. Instale DBeaver: Puede descargarlo desde la página oficial. Se recomienda trabajar con la versión `zip`.
+5. Genere una nueva conexión y conéctese a la BD. Puede dejar los parámetros por defecto, salvo el puerto que debe colocarse como `5434`.
+
+
+### Para usar PostgreSQL (Docker)
 El repositorio contienen la configuración para iniciar PostgreSQL y PGAdmin. Para ello deben realizarse las siguientes operaciones:
 
 1. Descargar este repositorio
