@@ -17,7 +17,7 @@ psql -U postgres
 --5) Crear la tabla (ejecutar script - CREATE TABLE).
 
 --6) Ejecutar el comando copy
-COPY TITANIC_RAW FROM 'cargadatos/titanic.csv' DELIMITERS ',' CSV;
+COPY TITANIC_RAW FROM 'cargadatos/titanic.csv' DELIMITERS ',' CSV HEADER;
 
 
 
